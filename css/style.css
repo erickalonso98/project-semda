@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: rgb(240, 255, 240);
+}
+
+.barra{
+    width: 100%;
+    height: 30px;
+    background: rgb(34,187,51);
+}
+
+.conten-img a .img{
+    width: 260px;
+    height: 100px;
+    float: left;
+}
+
+.content-imagen a .imagen{
+    width: 134px;
+    height: 100px;
+    float: right;
+    margin-right: 15px;
+}
+
+.barra-title{
+    width: 100%;
+    height: 110px;
+    background: rgb(34,187,51);
+    margin-top: 110px;
+    padding: 35px;
+    display: block;
+}
+
+.barra-title .title .parrafo{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+#sidebar{
+    width: 360px;
+    height: 490px;
+    background: rgb(34,187,51);
+    margin-top: 50px;
+    float: left;
+    margin-left: 37px;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+#sidebar #container{
+    padding: 30px;
+    height: 100%;
+}
+
+#sidebar #container h4{
+    padding: 10px;
+    text-align: center;
+}
+
+#formulario{
+    border: none;
+    padding: 30px;
+    text-align: justify;
+}
+
+#formulario input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color:rgb(143, 188, 139);
+    color: #fff;
+    border: none;
+}
+
+#formulario input[type="submit"]{
+    width: 110px;
+    border: none;
+    background: gray;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu{
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    position: static;
+    width: 22%;
+    height: 757px;
+    background: rgb(144, 238, 144);
+    padding: 5px;
+}
+
+.menu h3{
+    text-align: center;
+    color: darkgreen;
+}
+
+.menu h3 span{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: brown;
+}
+
+.menu .button{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu .button a{
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    padding: 4px;
+    text-decoration: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    border-radius: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background:rgb(34,187,51);;
+    margin-top: 60%;
+    padding: 10px;
+    display: block;
+}
+
+.footer h4{
+    color: #fff;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.footer .red-social{
+    float: left;
+    margin-left: 30px;
+    padding: 7px;
+    font-size: 19px;
+}
+
+.footer .red-social .red-social-red{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fab{
+    color: blue;
+}
+
+.fa{
+    color: #ff5733;
+}
+
+.contact{
+    float: right;
+}
+
+.contact .contact-p{
+    line-height: 20px;
+    color: #fff;
+    text-align: right;
+    text-decoration: underline;
+}
+
+[name="salir"]{
+    float: right;
+    color: darkgreen;
+}
+
+
+
+

@@ -1,0 +1,497 @@
+.subir{
+    text-decoration: none;
+    color: #fff;
+}
+#seccion-one{
+    border:none;
+    width: 984px;
+    height: 757px;
+    float: right;
+}
+
+#section-global{
+    border:none;
+    float: right;
+    width: 850px;
+    height: 490px;
+    margin-top: 50px;
+}
+
+#global{
+    border:none;
+    width: 984px;
+    height: 757px;
+    float: right;
+}
+
+#global [name="welcome"]{
+    padding: 10px;
+}
+
+.logo-home{
+    width: 650px;
+    height: 300px;
+    float: right;
+    margin-right: 180px;
+    border-radius: 5px;
+}
+
+[name="title-one"]{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+}
+
+[name="title-bene"]{
+    text-align: center;
+    color:rgb(0, 255, 0);
+    font-size: 17px;
+}
+
+.contenedor-form{
+    margin: 0px auto;
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+#bene-form{
+    width: 100%;
+    margin: 0px auto;
+    border: none;
+    padding: 30px;
+    text-align: center;
+}
+
+#bene-form input[type="text"],input[type="number"],input[type="email"],input[type="tel"]{
+    width: 20%;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+.posicion{
+    position: relative;
+    border: none;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+#btnRegistrar{
+    display: inline-block;
+    width: 120px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#btnUpdate{
+    display: inline-block;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#btnDelete{
+    display: inline-block;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#Consult{
+    display: inline-block;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modal1{
+    display: none;
+    min-width: 1100px;
+    height: 600px;
+    padding: 20px;
+}
+
+.modal2{
+    display: none;
+    min-width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.modal3{
+    display: none;
+    min-width: 1600px;
+    height: 3600px;
+    padding: 20px;
+}
+
+#form-update{
+    min-width: 1100px;
+    height: 440px;
+    text-align: center;
+    margin: 0px auto;
+    border: none;
+    padding: 40px;
+}
+
+#acfolio,#acnombre,#acpa,#acam,#acfecha,#acsex,#accp,#accurp,#acedo,#acmuni,#acloc,#accalle,#acref,#acemail,#acecivil,#actel{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+[name="actuali"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px; 
+}
+
+
+#idactualizar{
+    margin: 0px auto;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+[name="eliminar"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#form-delete{
+    margin: 0px auto;
+    min-width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+#folio{
+    width: 70%;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none; 
+}
+
+#eliminar{
+    float: left;
+    margin-left: 130px;
+    width: 120px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#tabla{
+    width: 1300px;
+    text-align: center;
+}
+
+#plantas-global{
+    border:none;
+    width: 984px;
+    height: 757px;
+    float: right;
+}
+
+[name="title-plant"]{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+    letter-spacing: 1px;
+}
+
+.content-form-plant{
+    border:none;
+    text-align: center;
+    margin: 0px auto;
+    min-width: 100%;
+    height: 250px;
+}
+
+#form-plant{
+    border: none;
+    min-width: 100%;
+    height: 400px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#fplant,#nom,#medsie,#exist,#fvi,#fbene{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+#btn-plant{
+    margin: 0px auto;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+label{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.position{
+    border: none;
+    position: relative;
+    top: -120px;
+}
+
+#updateplant{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#deleteplant{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#consultplant{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#grafica-plant{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.content-grafica3{
+    display: none;
+}
+
+[name="actualiplant"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.actualizar-plant{
+    display: none;
+    min-width: 750px;
+    padding: 10px;
+}
+
+#acplant,#acnomplant,#acmedsie,#acexist,#acviv,#actben{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+#styleupdate{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+[name="deleteplant"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.borrar-plant{
+    display: none;
+    width: 650px;
+    padding: 10px;
+}
+
+#eliplant{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+#borrar-plant{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.queryplant{
+    display: none;
+    min-width: 1250px;
+}
+
+#tabla-plant{
+    width: 1200px;
+    text-align: center;
+}
+
+th{
+    background:  rgb(34,187,51);
+    border-color: darkgreen;
+    color: #fff;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+

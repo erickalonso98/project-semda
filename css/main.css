@@ -1,0 +1,91 @@
+#global-seccion{
+    border:none;
+    width: 984px;
+    height: 757px;
+    float: right;
+}
+
+.content-table{
+    margin: 0px auto;
+    width: 900px;
+    height: 300px;
+    margin-top: 20px;
+    border: none;
+}
+
+.botones-actions{
+    margin: 10px auto;
+    border: none;
+    width:700px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.content-grafica{
+    width: 600px;
+    height: 400px;
+}
+
+#entregadas{
+    display: inline-block;
+    background:rgb(220, 220, 220);
+    width: 150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#perdidas{
+    display: inline-block;
+    background:rgb(220, 220, 220);
+    width: 150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#cosecha{
+    display: inline-block;
+    background:rgb(220, 220, 220);
+    width: 150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#table{
+    width: 900px;
+    text-align: center;
+}
+
+th{
+    background:  rgb(34,187,51);
+    border-color: darkgreen;
+    color: #fff;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td{
+    border: 1px solid darkgreen;
+    border-spacing: 0;
+}

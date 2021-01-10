@@ -1,0 +1,232 @@
+#main-viv{
+    border:none;
+    width: 984px;
+    height: 757px;
+    float: right;
+}
+
+[name="title-viv"]{
+    text-align: center;
+    color: brown;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+.content-viv{
+    border:none;
+    width: 100%;
+    height: 370px;
+}
+
+#form-viv{
+    padding: 30px;
+}
+
+#fviv,#nomviv,#existencia,#dir,#edoviv,#muniviv,#fenc,#tpl,#cant{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+#btn-viv{
+    margin: 0px auto;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#updateviv{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#deleteviv{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#queryviv{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#graficaviv{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.position-button{
+    position: relative;
+    padding: 20px;
+}
+
+.actviv{
+    display: none;
+    min-width: 1000px;
+    height: 400px;
+}
+
+.eliviv{
+    display: none;
+    min-width: 500px;
+    height: 200px;
+}
+
+.consultviv{
+    display: none;
+    min-width: 1100px;
+}
+
+.grafviv{
+    display: none;
+}
+
+[name="title-vivero"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#updatevivero{
+    padding: 30px;
+}
+
+#upviv,#upnom,#upexistencia,#updir,#upedoviv,#upmuniviv,#upfenc,#uptpl,#upcant{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none;
+}
+
+#actu-viv{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+[name="title-borrar"]{
+    background: rgb(34,187,51);
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#deletevivero{
+    padding: 30px;
+}
+
+#del-viv{
+    width: 199px;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color:rgb(152, 251, 152);
+    color: #fff;
+    border: none; 
+}
+
+#button-delete{
+    margin-bottom: 27px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background:rgb(220, 220, 220);
+    color: darkgreen;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#table-viv{
+    width: 1000px;
+    text-align: center;
+}
+
+th{
+    background:  rgb(34,187,51);
+    border-color: darkgreen;
+    color: #fff;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
