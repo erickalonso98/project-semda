@@ -184,6 +184,15 @@ $(function(){
                         fontSize: 20,
                         padding: 20,
                         fontColor: '#12619c',
+                      },
+                      tooltips: {
+                        backgroundColor: 'green',
+                        titleFontSize: 10,
+                        xPadding: 20,
+                        yPadding: 20,
+                        bodyFontSize: 15,
+                        bodySpacing: 10,
+                        mode: 'x',
                       }
                     }
                 });
@@ -256,6 +265,15 @@ $(function(){
                             fontSize: 20,
                             padding: 20,
                             fontColor: '#12619c',
+                          },
+                          tooltips: {
+                            backgroundColor: 'green',
+                            titleFontSize: 10,
+                            xPadding: 20,
+                            yPadding: 20,
+                            bodyFontSize: 15,
+                            bodySpacing: 10,
+                            mode: 'y',
                           }
                     }
                 };
@@ -617,6 +635,15 @@ $(function(){
                             fontSize: 20,
                             padding: 20,
                             fontColor: '#12619c',
+                          },
+                          tooltips: {
+                            backgroundColor: 'green',
+                            titleFontSize: 10,
+                            xPadding: 20,
+                            yPadding: 20,
+                            bodyFontSize: 15,
+                            bodySpacing: 10,
+                            mode: 'x',
                           }
                     }
                 };
@@ -1082,12 +1109,12 @@ $(function(){
                           },
                         layout: {
                         padding: {
-                          right: 50,
+                          right: 20,
                         }
                       },
                       tooltips: {
-                        backgroundColor: '#0584f6',
-                        titleFontSize: 20,
+                        backgroundColor: 'green',
+                        titleFontSize: 10,
                         xPadding: 20,
                         yPadding: 20,
                         bodyFontSize: 15,
@@ -1096,7 +1123,7 @@ $(function(){
                       },
                       elements: {
                         line: {
-                          borderWidth: 8,
+                          borderWidth: 10,
                           fill: false,
                         },
                         point: {
