@@ -849,6 +849,10 @@ $(function(){
                             fontSize: 20,
                             padding: 20,
                             fontColor: '#12619c',
+                          },
+                          animation:{
+                            animateScale: true,
+                            animateRotate: true
                           }
                     }
                 };
