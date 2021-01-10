@@ -40,7 +40,54 @@
         <?php echo '<a name="salir" href="../cerrar.php">Cerrar Sesión</a>'; ?>
     </div>
     <section id="main-isumo">
+        <h4 name="tli-insu">Informacion de insumos a beneficiarios</h4>
+        <div class="content-insumos">
+            <form id="formAddinsumo"> 
+                <div class="content-entrada">
+                    <label for="num-insu">Numero de insumo:</label>
+                    <input type="number" name="ni" id="ni">
 
+                    <label for="benefi">Folio de beneficiario:</label>
+                    <input type="text" name="fve" id="fve">
+                    <br>
+                    <label for="date">Fecha:</label>
+                    <input type="text" name="fch" id="fch">
+
+                    <label for="materi">Material:</label>
+                    <input type="text" name="mat" id="mat">
+                
+                <br>
+                <label for="detalle">Detalles:</label><br>
+                <textarea name="deta" id="deta" cols="30" rows="10"></textarea>
+                <br>
+                <label for="marca">Marca:</label>
+                <input type="text" name="marc" id="marc">
+
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" name="cant" id="cant">
+
+                <button type="submit" id="input-insu">Registrar</button>
+             </div>
+            </form>
+            <div class="position-button">
+                <button type="button" id="updateInsu">Actualizar</button>
+                <button type="button" id="deleteInsu">Eliminar</button>
+                <button type="button" id="queryInsu">Consultar</button>
+                <button type="button" id="viewgraf">ver grafica</button>
+            </div>
+        </div>
+        <div class="contenedor-insu-update">
+
+        </div>
+        <div class="contenedor-insu-delete">
+
+        </div>
+        <div class="contenedor-insu-query">
+            
+        </div>
+        <div class="contenedor-insu-grafica">
+            <canvas id="grafica-insumos" width="500" height="500"></canvas>
+        </div>
     </section>
     <aside class="menu">
         <h3>Bienvenido al control de datos <br><span>usuario</span></h3>
