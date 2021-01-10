@@ -38,7 +38,7 @@
         </div>
         <?php echo '<a name="salir" href="../cerrar.php">Cerrar Sesión</a>'; ?>
     </div>
-    <section>
+    <section id="main-isumo">
 
     </section>
     <aside class="menu">
