@@ -1006,11 +1006,112 @@ $(function(){
         }
 
         function queryInsumo(){
-            
+            $.get('../peticiones/consult.insumos.php',(response)=>{
+                var query_insu = JSON.parse(response);
+                var template = '';
+                query_insu.forEach((value)=>{
+                    template+=`
+                        <tr>
+                            <td>${value.ni}</td>
+                            <td>${value.fve}</td>
+                            <td>${value.fch}</td>
+                            <td>${value.hra}</td>
+                            <td>${value.mat}</td>
+                            <td>${value.deta}</td>
+                            <td>${value.marc}</td>
+                            <td>${value.cant}</td>
+                        </tr>
+                    `;
+                });
+
+                $('#showInsu').html(template);
+            });
         }
 
         function GrafInsu(){
+            $.get('../peticiones/graficainsu.php',function(response){
+                var json_insu = JSON.parse(response);
+                var mat = [];
+                var total = [];
+                var color = [];
+                var colores = ()=>{
+                    var r = Math.floor(Math.random() * 255);
+                    var g = Math.floor(Math.random() * 255);
+                    var b = Math.floor(Math.random() * 255);
+                    return "rgb(" + r + "," + g + "," + b + ")";
+                }
 
+                json_insu.forEach((value)=>{
+                    mat.push(value.mat);
+                    total.push(value.total);
+                    color.push(colores);
+                });
+
+                var json_graf_insu = {
+                    type:'line',
+                    data:{
+                        labels:mat,
+                        datasets:[
+                            {
+                                backgroundColor:'rgba(200,200,200,0.75)',
+                                borderColor:'rgba(200,200,200,0.75)',
+                                hoverBackgroundColor:'rgba(200,200,200,1)',  
+                                hoverBorderColor:'rgba(200,200,200,1)',
+                                data:total,
+                                backgroundColor:color
+                            }
+                        ]
+                    },
+                    options:{
+                        scales:{
+                            yAxes:[{
+                                ticks:{
+                                 beginAtZero: true
+                                }
+                            }]
+                        },
+                        legend:{
+                            display:false
+                        },
+                        title: {
+                            display: true,
+                            text: 'Cantidad de insumos entregados',
+                            fontSize: 20,
+                            padding: 20,
+                            fontColor: '#12619c',
+                          },
+                        layout: {
+                        padding: {
+                          right: 50,
+                        }
+                      },
+                      tooltips: {
+                        backgroundColor: '#0584f6',
+                        titleFontSize: 20,
+                        xPadding: 20,
+                        yPadding: 20,
+                        bodyFontSize: 15,
+                        bodySpacing: 10,
+                        mode: 'x',
+                      },
+                      elements: {
+                        line: {
+                          borderWidth: 8,
+                          fill: false,
+                        },
+                        point: {
+                          radius: 6,
+                          borderWidth: 4,
+                          backgroundColor: 'white',
+                          hoverRadius: 8,
+                          hoverBorderWidth: 4,
+                        }
+                      }
+                    }
+                };
+
+                var chart = new Chart($('#grafica-insumos'),json_graf_insu);
+            });
         }
 
 });

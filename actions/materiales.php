@@ -1,3 +1,4 @@
+<?php sleep(2); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,8 +95,22 @@
             </form>
         </div>
         <div class="contenedor-insu-query">
-            <table>
+            <table id="table-insu">
+                <thead>
+                    <tr>
+                        <th>Numero de insumo</th>
+                        <th>Folio de beneficiario</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Material entregado</th>
+                        <th>Detalles</th>
+                        <th>Marca</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="showInsu">
 
+                </tbody>
             </table>
         </div>
         <div class="contenedor-insu-grafica">

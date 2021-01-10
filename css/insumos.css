@@ -85,8 +85,14 @@
 
 .contenedor-insu-query{
     display: none;
+    min-width: 1100px;
 }
 
 .contenedor-insu-grafica{
     display: none;
+}
+
+#table-insu{
+    width: 100%;
+    text-align: center;
 }
