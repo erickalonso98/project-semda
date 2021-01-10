@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/main-styles.css"> 
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/optional-styles.css">
+    <link rel="stylesheet" href="../css/insumos.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/bcbc1b7dc7.js" crossorigin="anonymous"></script>
     <script src="../jquery/jquery.min.js"></script>
