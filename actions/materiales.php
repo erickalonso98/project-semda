@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/bcbc1b7dc7.js" crossorigin="anonymous"></script>
     <script src="../jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="../jquery/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui/jquery-ui.theme.min.css">
+    <script src="../jquery/jquery-ui/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
@@ -53,6 +57,9 @@
                     <label for="date">Fecha:</label>
                     <input type="text" name="fch" id="fch">
 
+                    <label for="hor">Hora:</label>
+                    <input type="text" name="hra" id="hra">
+
                     <label for="materi">Material:</label>
                     <input type="text" name="mat" id="mat">
                 
@@ -77,13 +84,19 @@
             </div>
         </div>
         <div class="contenedor-insu-update">
+            <form>
 
+            </form>
         </div>
         <div class="contenedor-insu-delete">
-
+            <form>
+                
+            </form>
         </div>
         <div class="contenedor-insu-query">
-            
+            <table>
+
+            </table>
         </div>
         <div class="contenedor-insu-grafica">
             <canvas id="grafica-insumos" width="500" height="500"></canvas>

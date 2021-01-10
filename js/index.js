@@ -946,4 +946,71 @@ $(function(){
         });
     }
 
+            if(window.location.href.indexOf('materiales')>-1){
+                $('#fch').datepicker();
+            }
+
+        $('#formAddinsumo').submit(function(e){
+            var addInsu = {
+                ni:$('#ni').val(),
+                fve:$('#fve').val(),
+                fch:$('#fch').val(),
+                hra:$('#hra').val(),
+                mat:$('#mat').val(),
+                deta:$('#deta').val(),
+                marc:$('#marc').val(),
+                cant:$('#cant').val()
+            };
+
+            $.post('../peticiones/addinsumo.php',addInsu,function(response){
+                if(response){
+                    swal.fire({
+                        title:"¡Enhorabuena!",
+                        text:"Dato Insertado Satisfactoriamente",
+                        icon:"success"
+                    });
+                }
+
+                $('#formAddinsumo').trigger('reset');
+            });
+
+            e.preventDefault();
+        });
+
+        $('#updateInsu').click(function(){
+            $('.contenedor-insu-update').modal();
+            updateInsumo();
+        });
+
+        $('#deleteInsu').click(function(){
+            $('.contenedor-insu-delete').modal();
+            deleteInsumo();
+        });
+
+        $('#queryInsu').click(function(){
+            $('.contenedor-insu-query').modal();
+            queryInsumo();
+        });
+
+        $('#viewgraf').click(function(){
+            $('.contenedor-insu-grafica').modal();
+            GrafInsu();
+        });
+
+        function updateInsumo(){
+
+        }
+
+        function deleteInsumo(){
+            
+        }
+
+        function queryInsumo(){
+            
+        }
+
+        function GrafInsu(){
+
+        }
+
 });
