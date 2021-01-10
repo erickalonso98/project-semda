@@ -1102,7 +1102,7 @@ $(function(){
                         point: {
                           radius: 6,
                           borderWidth: 4,
-                          backgroundColor: 'white',
+                          backgroundColor: 'green',
                           hoverRadius: 8,
                           hoverBorderWidth: 4,
                         }
