@@ -118,8 +118,9 @@
            <form id="deletevivero">
                 <label for="bf">Folio del vivero:</label>
                 <input type="text" name="del-viv" id="del-viv">
-
-                <button type="submit" id="button-delete">Eliminar</button>
+                <center>
+                    <button type="submit" id="button-delete">Eliminar</button>
+                </center>
            </form>
        </div>
 
