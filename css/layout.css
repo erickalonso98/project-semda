@@ -132,7 +132,7 @@
 
 .consultviv{
     display: none;
-    min-width: 1100px;
+    min-width: 100%;
 }
 
 .grafviv{
@@ -218,7 +218,7 @@
 }
 
 #table-viv{
-    width: 1000px;
+    width: 100%;
     text-align: center;
 }
 

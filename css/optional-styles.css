@@ -87,7 +87,7 @@
 
 .querypropiedad{
     display: none;
-    min-width: 1100px;
+    min-width: 100%;
 }
 
 #apfpro,#apnuhec,#apdir,#actedo,#apmuni,#aploc,#apfben{
@@ -152,6 +152,6 @@
 }
 
 #tabla-prop{
-    width: 1000px;
+    width: 100%;
     text-align: center;
 }

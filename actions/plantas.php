@@ -90,7 +90,7 @@
 
                 <label for="vivero">Folio del vivero:</label>
                 <input type="text" name="acviv" id="acviv">
-
+                <br>
                 <label for="foliobenefi">Folio del beneficiario:</label>
                 <input type="text" name="actben" id="actben">
 
@@ -102,8 +102,9 @@
             <form id="delete-planta">
                 <label for="folio_plant">Folio de la Planta:</label>
                 <input type="text" name="eliplant" id="eliplant">
-
-                <button type="submit" id="borrar-plant">Eliminar</button>
+                <center>
+                    <button type="submit" id="borrar-plant">Eliminar</button>
+                </center>
             </form>
         </div>
         <div class="queryplant">

@@ -104,8 +104,9 @@
             <form id="deletepro">
                 <label for="">Folio de la propiedad:</label>
                 <input type="text" name="delfpro" id="delfpro">
-
+            <center>
                 <button type="submit" id="btn-delete-pro">Eliminar</button>
+            </center>
             </form>
         </div>
         <div class="querypropiedad">
